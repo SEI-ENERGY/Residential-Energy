@@ -4,8 +4,6 @@ library(ade4)
 library(Hmisc)
 
 # Read in data
-dirname(sys.frame(0)$ofile)
-source(file)
 setwd("/Users/zoe/Documents/PROJECTS/SEI/Residential Energy Consumption Estimation/")
 
 recs = read.csv("data/recs2009_south_atlantic_census_division(5).csv")
